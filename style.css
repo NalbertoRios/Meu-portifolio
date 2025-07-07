@@ -73,6 +73,10 @@ button {
 
 /* RESPONSIVIDADE */
 @media (max-width: 768px) {
+  body {
+    padding-top: 100px; /* mais espaço para o menu fixo */
+  }
+
   .menu {
     flex-direction: column;
     align-items: center;
