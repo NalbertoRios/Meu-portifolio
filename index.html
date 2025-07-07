@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+ 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Meu Portfólio</title> 
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+  <!-- MENU FIXO - Navegação principal -->
+  <nav class="menu">
+    <!-- Links âncora para as seções da página -->
+    <a href="#sobre">Sobre mim</a> <!-- Leva à seção "Sobre mim" -->
+    <a href="#formacao">Formação</a> <!-- Leva à seção "Formação" -->
+    <a href="#portfolio">Portfólio</a> <!-- Leva à seção "Portfólio" -->
+    <a href="#contato">Contato</a> <!-- Leva à seção "Contato" -->
+  </nav>
+
+  <!-- SEÇÃO SOBRE MIM - Apresentação pessoal -->
+  <section id="sobre">
+    <h2>Sobre mim</h2> <!-- Título da seção -->
+    <div class="sobre-conteudo">
+      <!-- Imagem de perfil -->
+      <img src="minha_Imagem.jpg" alt="Foto de Nalberto" class="foto-perfil">
+      <div class="texto-sobre">
+        <p>
+          <!-- Texto de apresentação pessoal -->
+          Olá! Meu nome é <span style="color: blue; font-weight: bold;"></span>.<br>
+          Trabalho atualmente em metalúrgica.<br>
+          No meu ambiente de trabalho prezo muito por comunicação e ter bom relacionamento com colegas de trabalho alimentando o espírito de equipe.<br>
+          Gosto de aprender sempre coisas novas.<br>
+          Mergulhei nesse mundo da tecnologia e estou gostando muito.<br>
+          Cada aprendizado que adquiro me motiva mais a ter curiosidade e estar sempre buscando conhecimento novo.<br>
+          Gosto de tocar saxofone, andar de bicicleta e aproveitar os momentos de folga com minha família.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO FORMAÇÃO - Informações acadêmicas -->
+  <section id="formacao">
+    <h2>Formação</h2>
+    <p>
+      <!-- Texto sobre formação acadêmica -->
+      Atualmente curso Análise e Desenvolvimento de Sistemas pela UNINTER, onde venho desenvolvendo uma base sólida em diversas áreas da tecnologia.
+      Tenho estudado lógica de programação, modelagem UML, banco de dados NoSQL, além de linguagens como HTML, CSS, JavaScript, Python e Java.
+      Também possuo conhecimentos em UI (Interface do Usuário) e UX (Experiência do Usuário), com foco na criação de soluções intuitivas, acessíveis e centradas no usuário.
+    </p>
+  </section>
+
+  <!-- SEÇÃO PORTFÓLIO - Projetos realizados -->
+  <section id="portfolio">
+    <h2>Portfólio</h2>
+    <ul>
+      <!-- Lista de projetos com links para o GitHub -->
+      <li><a href="https://github.com/NalbertoRios/ProjetoCofrinho.git" target="_blank">Projeto Cofrinho em Java.</a></li> <!-- Abre em nova aba -->
+      <li><a href="https://github.com/NalbertoRios/Listas-No-HTML.git" target="_blank">Projeto Listas HTML.</a></li> <!-- Abre em nova aba -->
+      <li><a href="https://github.com/NalbertoRios/Projeto_Venda_Livros.git" target="_blank">Venda de livros em Java.</a></li> <!-- Abre em nova aba -->
+    </ul>
+  </section>
+
+  <!-- SEÇÃO CONTATO - Formulário para contato -->
+  <section id="contato">
+    <h2>Contato</h2>
+    <!-- Formulário de contato (necessita de backend para funcionar) -->
+    <form>
+      <!-- Campo para o nome do visitante -->
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required> <!-- Campo obrigatório -->
+      
+      <!-- Campo para o email do visitante -->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required> <!-- Valida formato de email -->
+      
+      <!-- Campo para a mensagem -->
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="5" required></textarea> <!-- Área de texto maior -->
+      
+      <!-- Botão para submeter o formulário -->
+      <button type="submit">Enviar</button>
+    </form>
+   
+  </section>
+
+</body>
+</html>

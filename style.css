@@ -1,0 +1,59 @@
+/* CORPO DO SITE */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding-top: 60px; /* compensa menu fixo */
+  background-color: #eaf6ff;
+}
+
+/* MENU PRINCIPAL */
+.menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #0066cc;
+  padding: 10px 0;
+}
+
+/* LINKS DO MENU */
+.menu a {
+  color: white;
+  padding: 8px 15px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+/* SEÇÕES DE CONTEÚDO */
+section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: 40px auto;
+  background-color: hsl(152, 22%, 88%);
+  border-radius: 10px;
+}
+
+/* FORMULÁRIO */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* BOTÃO */
+button {
+  background-color: #ff6600;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+/* LAYOUT SOBRE MIM */
+.sobre-conteudo {
+  display: flex;
+  gap: 40px;
+}
+
+/* FOTO DE PERFIL */
+.foto-perfil {
+  width: 250px;
+  border-radius: 10px;
+}
